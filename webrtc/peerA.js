@@ -8,7 +8,7 @@ iceConfiguration.iceServers = [];
 iceConfiguration.iceServers.push({
                 urls: 'turn:my-turn-server.mycompany.com:19403',
                 username: 'optional-username',
-                credentials: 'auth-token'
+                credential: 'auth-token'
             })
 //stun  server
 iceConfiguration.iceServers.push({
